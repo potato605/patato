@@ -1,0 +1,5 @@
+#9
+./check.sh somefile：没有执行权限，会报permission denied
+chmod +x check.sh：添加可执行权限
+ls‑l看权限位，x代表可执行。
+Linux必须拥有可执行位，才能直接./运行脚本，否则只能bash check.sh。
